@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,#a4afb4, #B0BFC6, #FFFFFF)
+}
+
+h1{
+    text-align: center;
+    color: #5C5B4E;
+}
+
+h2{
+    color: #5C5B4E;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+ul{
+    line-height: 2em;
+}
+
+.imagem{
+    border-radius: 10%;
+    background-size: contain;
+}
+
+.tabela, tr, td{
+    border-collapse: collapse ;
+    border: solid rgb(160 160 160);
+    border: 3px solid black;
+    text-align: center;
+}
+
+a {
+  color: blue; 
+}
+
+a:hover {
+  color: red;
+}
